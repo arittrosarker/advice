@@ -1,6 +1,5 @@
 // Add your OpenRouter API keys below
-const OPENROUTER_API_KEYS = [
-    ""
+const OPENROUTER_API_KEYS = [ process.env.NEXT_PUBLIC_API_KEY
     // Add more keys if needed
 ];
 let currentKeyIndex = 0;
